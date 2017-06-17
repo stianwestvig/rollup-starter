@@ -4,9 +4,7 @@
   "description": "Bundle it up",
   "repository": "https://github.com/stianwestvig/rollup-starter",
   "scripts": {
-    "start": "node server.js",
-    "build": "rollup -c",
-    "dev": "rollup -c -w | npm start"
+    "start": "rollup -c -w | node server.js"
   },
   "author": "",
   "license": "ISC",

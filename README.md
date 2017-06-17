@@ -1,5 +1,5 @@
 # Rollup poc
-This small website includes both es6 modules and fallback bundle with rollup. 
+This small website includes both es6 modules and fallback bundle with rollup.
 
 Website is served by Express on nodejs.
 
@@ -9,6 +9,6 @@ npm install
 ```
 
 ```
-npm run dev
+npm start
 ```
 Browse localhost:3000
