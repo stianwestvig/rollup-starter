@@ -1,0 +1,20 @@
+{
+  "name": "rollup-starter",
+  "version": "1.0.0",
+  "description": "Bundle it up",
+  "repository": "https://github.com/stianwestvig/rollup-starter",
+  "scripts": {
+    "start": "node server.js",
+    "build": "rollup -c",
+    "dev": "rollup -c -w | npm start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.15.3"
+  },
+  "devDependencies": {
+    "rollup": "0.43.0",
+    "rollup-watch": "4.0.0"
+  }
+}
